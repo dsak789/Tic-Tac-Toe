@@ -1,0 +1,13 @@
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#rsrt{
+    text-align: center;
+    font-size:25px ;
+    height: max-content;
+    width: fit-content;
+}
