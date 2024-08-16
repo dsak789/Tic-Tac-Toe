@@ -11,3 +11,53 @@ img{
     height: max-content;
     width: fit-content;
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #585454;
+}
+
+#ttt {
+    color: #cbc5c5;
+    
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+tr td {
+    display: inline-flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#rsrt {
+    display: block;
+    margin: 20px auto;
+}

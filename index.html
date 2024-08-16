@@ -7,39 +7,21 @@
 <body>
     <h1 id="ttt">TIC TAC TOE</h1>
     <table id="tttb1">
-        <tr><td id="td1"><img src="smile.jpg" alt="X-O" id="c1" onclick="c1()"></td>
-            <td><img src="smile.jpg" alt="X-O" id="c2" onclick="c2()"></td>
-            <td><img src="smile.jpg" alt="X-O" id="c3" onclick="c3()">
-            </td>
+        <tr>
+            <td><img src="smile.jpg" alt="X-O" id="c1" onclick="C(this)"></td>
+            <td><img src="smile.jpg" alt="X-O" id="c2" onclick="C(this)"></td>
+            <td><img src="smile.jpg" alt="X-O" id="c3" onclick="C(this)"></td>
         </tr>
-        <tr><td><img src="smile.jpg" alt="X-O" id="c4" onclick="c4()"></td>
-            <td><img src="smile.jpg" alt="X-O" id="c5" onclick="c5()"></td>
-            <td><img src="smile.jpg" alt="X-O" id="c6" onclick="c6()"></td>
+        <tr><td><img src="smile.jpg" alt="X-O" id="c4" onclick="C(this)"></td>
+            <td><img src="smile.jpg" alt="X-O" id="c5" onclick="C(this)"></td>
+            <td><img src="smile.jpg" alt="X-O" id="c6" onclick="C(this)"></td>
         </tr>
-        <tr><td><img src="smile.jpg" alt="X-O" id="c7" onclick="c7()"></td>
-            <td><img src="smile.jpg" alt="X-O" id="c8" onclick="c8()"></td>
-            <td><img src="smile.jpg" alt="X-O" id="c9" onclick="c9()"></td>
+        <tr><td><img src="smile.jpg" alt="X-O" id="c7" onclick="C(this)"></td>
+            <td><img src="smile.jpg" alt="X-O" id="c8" onclick="C(this)"></td>
+            <td><img src="smile.jpg" alt="X-O" id="c9" onclick="C(this)"></td>
         </tr>
     </table>
     <button id="rsrt" onclick="start()">Start</button>
-
-
-
-    <h1>Notify.com</h1>
-     <button onclick="send()">Send Notification</button>
-    <script>
-        send=()=>{
-            alert("Notification");
-            Notification.requestPermission().then(perm=>{
-                if(perm=="granted"){
-                    new Notification("Hello",{
-                        body:Math.random(),
-                        icon:"https://dannanasaiajithkumar.vercel.app/icon.jpg"
-                    });
-                }
-            })
-        }
-    </script>
 </body>
 <script src="index.js"></script>
 </html>
